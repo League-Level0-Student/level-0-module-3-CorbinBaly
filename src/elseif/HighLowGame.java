@@ -25,7 +25,7 @@ public class HighLowGame {
 			if (Usu == random) {
 
 				// 6. Win
-				JOptionPane.showConfirmDialog(null, "You win!");
+				JOptionPane.showMessageDialog(null, "You win!");
 				// 12. Use "System.exit(0);" to quit the game if the user guessed the right
 				// answer.
 				System.exit(0);
@@ -34,16 +34,16 @@ public class HighLowGame {
 			if (random < Usu) {
 
 				// 8. Tell them it's too high
-				JOptionPane.showConfirmDialog(null, "Your guess is too high");
+				JOptionPane.showMessageDialog(null, "Your guess is too high");
 			}
 			// 9. if the guess is low
 			if (random > Usu) {
 				// 10. Tell them it's too low
-				JOptionPane.showConfirmDialog(null, "Your guess is too low");
+				JOptionPane.showMessageDialog(null, "Your guess is too low");
 			}
 			// 13. Tell them they lose
 			if (i == 10)
-				JOptionPane.showConfirmDialog(null, "You lose!");
+				JOptionPane.showMessageDialog(null, "You lose!");
 		}
 
 	}

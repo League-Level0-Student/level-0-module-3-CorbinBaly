@@ -15,7 +15,7 @@ public class CrazyCatLady {
 		int SomeInput = Integer.parseInt(Idk);
 		// 3. If they have 3 or more cats, tell them they are a crazy cat lady
 		if (SomeInput >= 3) {
-			JOptionPane.showConfirmDialog(null, "You are a crazy cat lady");
+			JOptionPane.showMessageDialog(null, "You are a crazy cat lady");
 		}
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below
 		// to show them a cat video
